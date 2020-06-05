@@ -14,7 +14,7 @@
 		"snippets": [
 			{
 				"language": "markdown",
-				"path": "./snippets.json"
+				"path": "./src/snippets.json"
 			}
 		]
 	}
