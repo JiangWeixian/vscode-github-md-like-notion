@@ -1,10 +1,23 @@
 {
-	"Print to console": {
-		"prefix": "log",
+	"Add header 1": {
+		"Add collapse part": {
+			"prefix": "header1",
+			"body": [
+				"# $1"
+			],
+			"description": "add a header 1 part in markdown"
+		}
+	},
+	"Add collapse part": {
+		"prefix": "collapse",
 		"body": [
-			"console.log('$1');",
-			"$2"
+			"<details>",
+			"<summary>I could use some help...</summary>",
+			"<p>",
+			"$1",
+			"</p>",
+			"</details>"
 		],
-		"description": "Log output to console"
+		"description": "add a collapse part in markdown"
 	}
 }
