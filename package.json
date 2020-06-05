@@ -10,6 +10,16 @@
 	"categories": [
 		"Snippets"
 	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/JiangWeixian/vscode-github-md-like-notion"
+	},
+	"keywords": [
+		"markdown",
+		"notion",
+		"github",
+		"readme"
+	],
 	"contributes": {
 		"snippets": [
 			{
