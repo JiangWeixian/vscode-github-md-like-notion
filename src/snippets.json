@@ -1,7 +1,7 @@
 {
 	"Add header 1": {
 		"Add collapse part": {
-			"prefix": "header1",
+			"prefix": "!header1",
 			"body": [
 				"# $1"
 			],
@@ -9,12 +9,12 @@
 		}
 	},
 	"Add collapse part": {
-		"prefix": "collapse",
+		"prefix": "!collapse",
 		"body": [
 			"<details>",
-			"<summary>I could use some help...</summary>",
+			"<summary>$1</summary>",
 			"<p>",
-			"$1",
+			"$2",
 			"</p>",
 			"</details>"
 		],
