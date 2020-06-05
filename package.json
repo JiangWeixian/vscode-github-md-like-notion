@@ -1,9 +1,9 @@
 {
-	"name": "snippet-sample",
-	"displayName": "Snippet Sample",
-	"description": "Snippet Sample",
+	"name": "vscode-github-md-like-notion",
+	"displayName": "vscode-github-md-like-notion",
+	"description": "write github readme like notion",
 	"version": "0.0.1",
-	"publisher": "vscode-samples",
+	"publisher": "Jiangweixian",
 	"engines": {
 		"vscode": "^1.28.0"
 	},
@@ -13,7 +13,7 @@
 	"contributes": {
 		"snippets": [
 			{
-				"language": "javascript",
+				"language": "markdown",
 				"path": "./snippets.json"
 			}
 		]
