@@ -61,13 +61,35 @@
 			"![$1]($2)",
 			"<p style='color: #bfbfbf'>$1</p>"
 		],
-		"description": "add image"
+		"description": "add image with left caption"
 	},
 	"Add image with left caption": {
 		"prefix": "!image-with-center-caption",
 		"body": [
 			"![$1]($2)",
 			"<p align='center' style='color: #bfbfbf'>$1</p>"
+		],
+		"description": "add image with center caption"
+	},
+	"Add todo list": {
+		"prefix": "!todo-list",
+		"body": [
+			"- [ ] $1",
+			"- [ ] $2"
+		],
+		"description": "add image"
+	},
+	"Add todo undo item": {
+		"prefix": "!todo-undo-item",
+		"body": [
+			"- [ ] $1"
+		],
+		"description": "add image"
+	},
+	"Add todo done item": {
+		"prefix": "!todo-done-item",
+		"body": [
+			"- [x] $2"
 		],
 		"description": "add image"
 	}
