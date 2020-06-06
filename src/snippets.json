@@ -30,7 +30,7 @@
 		],
 		"description": "add meta info in markdown"
 	},
-	"Add React Component Table Props": {
+	"Add react component table props": {
 		"prefix": "!table-react-props",
 		"body": [
 			"|name|description|type|default|",
@@ -39,5 +39,19 @@
 			""
 		],
 		"description": "add react component table props"
+	},
+	"Add inside link": {
+		"prefix": "!link",
+		"body": [
+			"[$1]($2)"
+		],
+		"description": "add inside link"
+	},
+	"Add outside link": {
+		"prefix": "!link-outside",
+		"body": [
+			"[$1 🔗]($2)"
+		],
+		"description": "add outside link"
 	}
 }
