@@ -259,5 +259,47 @@
 			"created at ${CURRENT_YEAR}/${CURRENT_MONTH}/${CURRENT_DATE} ${CURRENT_HOUR}:${CURRENT_HOUR}:${CURRENT_SECOND}"
 		],
 		"description": "add create time"
+	},
+	"Add emoji feature": {
+		"prefix": "!emoji-feature",
+		"body": [
+			"✨ $1"
+		],
+		"description": "add feature emoji"
+	},
+	"Add emoji bug": {
+		"prefix": "!emoji-bug",
+		"body": [
+			"🐛 $1"
+		],
+		"description": "add bug emoji"
+	},
+	"Add emoji tada": {
+		"prefix": "!emoji-tada",
+		"body": [
+			"🎉 $1"
+		],
+		"description": "add tada emoji"
+	},
+	"Add emoji wip": {
+		"prefix": ["!emoji-wip", "!emoji-work-in-process"],
+		"body": [
+			"🚧 $1"
+		],
+		"description": "add wip emoji"
+	},
+	"Add emoji config": {
+		"prefix": "!emoji-config",
+		"body": [
+			"🔧 $1"
+		],
+		"description": "add config emoji"
+	},
+	"Add emoji docs": {
+		"prefix": "!emoji-docs",
+		"body": [
+			"📝 $1"
+		],
+		"description": "add docs emoji"
 	}
 }

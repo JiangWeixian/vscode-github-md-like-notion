@@ -96,6 +96,11 @@ This is the source code for [Snippet Guide](https://code.visualstudio.com/api/la
 
 2020/06/06 15:15:58
 
+### emoji - !emoji-{gitmojiname}
+> some useful emoji from [gitmoji](https://gitmoji.carloscuesta.me/)
+
+✨ etc..
+
 ### signature - !signature
 
 # 
