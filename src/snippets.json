@@ -217,11 +217,11 @@
 		"prefix": "!signature",
 		"body": [
 			"# ",
-			"<p align='right'>",
+			"<div align='right'>",
 			"",
 			"*built with ❤️ by $1*",
 			"",
-			"</p>"
+			"</div>"
 		],
 		"description": "add signature footer"
 	},
