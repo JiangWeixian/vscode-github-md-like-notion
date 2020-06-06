@@ -252,5 +252,12 @@
 			"${CURRENT_YEAR}/${CURRENT_MONTH}/${CURRENT_DATE} ${CURRENT_HOUR}:${CURRENT_HOUR}:${CURRENT_SECOND}"
 		],
 		"description": "add current date with time"
+	},
+	"Add created at": {
+		"prefix": "!date-YYYY/MM/DD HH:MM:SS",
+		"body": [
+			"created at ${CURRENT_YEAR}/${CURRENT_MONTH}/${CURRENT_DATE} ${CURRENT_HOUR}:${CURRENT_HOUR}:${CURRENT_SECOND}"
+		],
+		"description": "add create time"
 	}
 }
