@@ -18,8 +18,8 @@
 		],
 		"description": "add a collapse part in markdown"
 	},
-	"Add head": {
-		"prefix": "!head",
+	"Add simple repo description": {
+		"prefix": "!description",
 		"body": [
 			"<div align='center'>",
 			"",
