@@ -22,13 +22,16 @@ This is the source code for [Snippet Guide](https://code.visualstudio.com/api/la
 
 ### image-with-caption - !image-with-caption
 
-![avatar](https://avatars2.githubusercontent.com/u/6839576?s=460&u=ae20ee0b187d0c4f70cae7daa12ae09fb47b78a9&v=4 "avatar")*avatar*
+![avatar](https://avatars2.githubusercontent.com/u/6839576?s=460&u=ae20ee0b187d0c4f70cae7daa12ae09fb47b78a9&v=4 "avatar")
+
+*avatar*
 
 ### image-with-center-caption - !image-with-center-caption
 
 <div align="center">
 
 ![avatar](https://avatars2.githubusercontent.com/u/6839576?s=460&u=ae20ee0b187d0c4f70cae7daa12ae09fb47b78a9&v=4 "avatar")
+
 *avatar*
 
 </div>
