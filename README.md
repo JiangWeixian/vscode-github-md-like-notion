@@ -116,7 +116,7 @@
 
 ### keyboard - `!keyboard`
 
-<kdb>ctrl</kdb>
+<kbd>ctrl</kbd>
 
 ### signature - `!signature`
 

@@ -305,7 +305,7 @@
 	"Add keyboard": {
 		"prefix": "!keyboard",
 		"body": [
-			"<kdb>$1</kdb>"
+			"<kbd>$1</kbd>"
 		],
 		"description": "add keyboard wrap"
 	}
