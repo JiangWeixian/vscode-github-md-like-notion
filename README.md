@@ -8,9 +8,10 @@ This is the source code for [Snippet Guide](https://code.visualstudio.com/api/la
 
 - [`contributes.snippets`](https://code.visualstudio.com/api/references/contribution-points#contributes.snippets)
 
-## debug
+## dev
 
 - [how-to-debug](https://code.visualstudio.com/api/get-started/your-first-extension)
+- [supported snippets](https://code.visualstudio.com/docs/editor/userdefinedsnippets)
 - Run the `Run Extension` target in the Debug View
 - When you type `log` in a JavaScript file, you would see the snippet `Print to console`.
 
