@@ -16,6 +16,12 @@ This is the source code for [Snippet Guide](https://code.visualstudio.com/api/la
 
 ## snippets
 
+### table-react-component-props - !table-react-props
+
+|name|description|type|default|
+|:---:|:---:|:---:|:---|
+|props-a|a|string|just a test|
+
 ### inside-link - !link
 
 [inside-link](https://github.com/JiangWeixian/vscode-github-md-like-notion)

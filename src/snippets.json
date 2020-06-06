@@ -26,7 +26,8 @@
 			"# $1",
 			"",
 			"*$2*",
-			"</div>"
+			"</div>",
+			""
 		],
 		"description": "add meta info in markdown"
 	},
@@ -53,5 +54,21 @@
 			"[$1 🔗]($2)"
 		],
 		"description": "add outside link"
+	},
+	"Add image with caption": {
+		"prefix": "!image-with-left-caption",
+		"body": [
+			"![$1]($2)",
+			"<p style='color: #bfbfbf'>$1</p>"
+		],
+		"description": "add image"
+	},
+	"Add image with left caption": {
+		"prefix": "!image-with-center-caption",
+		"body": [
+			"![$1]($2)",
+			"<p align='center' style='color: #bfbfbf'>$1</p>"
+		],
+		"description": "add image"
 	}
 }
