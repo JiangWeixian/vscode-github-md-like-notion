@@ -1,12 +1,10 @@
 {
-	"Add header 1": {
-		"Add collapse part": {
-			"prefix": "!header1",
-			"body": [
-				"# $1"
-			],
-			"description": "add a header 1 part in markdown"
-		}
+	"Add h1": {
+		"prefix": "!h1",
+		"body": [
+			"# $1"
+		],
+		"description": "add a h1 part in markdown",
 	},
 	"Add collapse part": {
 		"prefix": "!collapse",
@@ -19,5 +17,27 @@
 			"</details>"
 		],
 		"description": "add a collapse part in markdown"
+	},
+	"Add head": {
+		"prefix": "!head",
+		"body": [
+			"<div align='center'>",
+			"",
+			"# $1",
+			"",
+			"*$2*",
+			"</div>"
+		],
+		"description": "add meta info in markdown"
+	},
+	"Add React Component Table Props": {
+		"prefix": "!table-react-props",
+		"body": [
+			"|name|description|type|default|",
+			"|:---:|:---:|:---:|:---|",
+			"|$1|$2|$3|$4|",
+			"",
+		],
+		"description": "add react component table props"
 	}
 }
