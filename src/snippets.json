@@ -212,5 +212,17 @@
 			"<a src='https://www.patreon.com/$1'><img width='180' alt='sponsor-pateron' src='https://c5.patreon.com/external/logo/become_a_patron_button@2x.png'></a>"
 		],
 		"description": "add sponsor-pateron button for markdown"
+	},
+	"Add signature footer": {
+		"prefix": "!signature",
+		"body": [
+			"# ",
+			"<p align='right'>",
+			"",
+			"*built with ❤️ by $1*",
+			"",
+			"</p>"
+		],
+		"description": "add sponsor-pateron button for markdown"
 	}
 }

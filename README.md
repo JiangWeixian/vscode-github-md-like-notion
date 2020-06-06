@@ -78,3 +78,12 @@ This is the source code for [Snippet Guide](https://code.visualstudio.com/api/la
 ### button-sponsor-pateron - !sponsor-pateron
 
 <a src='https://www.patreon.com/jiangweixian'><img width='180' alt='sponsor-pateron' src='https://c5.patreon.com/external/logo/become_a_patron_button@2x.png'></a>
+
+### signature - !signature
+
+# 
+<div align='right'>
+
+*built with ❤️ by jiangweixian*
+
+</div>
