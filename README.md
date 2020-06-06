@@ -1,4 +1,11 @@
+<div align='center'>
+
 # @vscode-gh-md-like-notion
+
+*a enhancer for github readme*
+
+</div>
+
 
 - [@vscode-gh-md-like-notion](#vscode-gh-md-like-notion)
 	- [install](#install)
@@ -8,7 +15,7 @@
 		- [image-with-caption - `!image-with-caption`](#image-with-caption---image-with-caption)
 		- [image-with-center-caption - `!image-with-center-caption`](#image-with-center-caption---image-with-center-caption)
 		- [table-react-component-props - `!table-react-props`](#table-react-component-props---table-react-props)
-		- [inside-link - !link](#inside-link---link)
+		- [inside-link - `!link`](#inside-link---link)
 		- [outside-link - `!link-outside`](#outside-link---link-outside)
 		- [backers - !backers](#backers---backers)
 		- [contributors - `!contributors`](#contributors---contributors)
@@ -74,7 +81,7 @@
 |:---:|:---:|:---:|:---|
 |props-a|a|string|just a test|
 
-### inside-link - !link
+### inside-link - `!link`
 
 [inside-link](https://github.com/JiangWeixian/vscode-github-md-like-notion)
 
