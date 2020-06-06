@@ -4,7 +4,7 @@
 		"body": [
 			"# $1"
 		],
-		"description": "add a h1 part in markdown",
+		"description": "add a h1 part in markdown"
 	},
 	"Add collapse part": {
 		"prefix": "!collapse",
@@ -36,7 +36,7 @@
 			"|name|description|type|default|",
 			"|:---:|:---:|:---:|:---|",
 			"|$1|$2|$3|$4|",
-			"",
+			""
 		],
 		"description": "add react component table props"
 	}
