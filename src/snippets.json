@@ -56,18 +56,21 @@
 		"description": "add outside link"
 	},
 	"Add image with caption": {
-		"prefix": "!image-with-left-caption",
+		"prefix": "!image-with-caption",
 		"body": [
-			"![$1]($2)",
-			"<p style='color: #bfbfbf'>$1</p>"
+			"![$1]($2)*$1*"
 		],
-		"description": "add image with left caption"
+		"description": "add image with caption"
 	},
-	"Add image with left caption": {
+	"Add image with center caption": {
 		"prefix": "!image-with-center-caption",
 		"body": [
+			"<div align='center'>",
+			"",
 			"![$1]($2)",
-			"<p align='center' style='color: #bfbfbf'>$1</p>"
+			"*$1*",
+			"",
+			"</div>"
 		],
 		"description": "add image with center caption"
 	},

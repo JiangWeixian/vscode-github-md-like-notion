@@ -19,17 +19,16 @@ This is the source code for [Snippet Guide](https://code.visualstudio.com/api/la
 ### image-with-caption - !image-with-caption
 
 ![avatar](https://avatars2.githubusercontent.com/u/6839576?s=460&u=ae20ee0b187d0c4f70cae7daa12ae09fb47b78a9&v=4 "avatar")*avatar*
-<p style='color: #bfbfbf'>avatar</p>
-
-<figure>
-	<img src="/media/examples/elephant-660-480.jpg" alt="Elephant at sunset">
-	<figcaption>An elephant at sunset</figcaption>
-</figure>
 
 ### image-with-left-caption - !image-with-left-caption
 
-![avatar](https://avatars2.githubusercontent.com/u/6839576?s=460&u=ae20ee0b187d0c4f70cae7daa12ae09fb47b78a9&v=4)
-<p align="center" style='color: #bfbfbf'>avatar</p>
+<div align="center">
+
+![avatar](https://avatars2.githubusercontent.com/u/6839576?s=460&u=ae20ee0b187d0c4f70cae7daa12ae09fb47b78a9&v=4 "avatar")
+*avatar*
+
+</div>
+
 
 ### table-react-component-props - !table-react-props
 
