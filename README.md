@@ -20,7 +20,7 @@ This is the source code for [Snippet Guide](https://code.visualstudio.com/api/la
 
 ![avatar](https://avatars2.githubusercontent.com/u/6839576?s=460&u=ae20ee0b187d0c4f70cae7daa12ae09fb47b78a9&v=4 "avatar")*avatar*
 
-### image-with-left-caption - !image-with-left-caption
+### image-with-center-caption - !image-with-center-caption
 
 <div align="center">
 
@@ -28,7 +28,6 @@ This is the source code for [Snippet Guide](https://code.visualstudio.com/api/la
 *avatar*
 
 </div>
-
 
 ### table-react-component-props - !table-react-props
 

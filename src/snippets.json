@@ -85,14 +85,14 @@
 	"Add todo undo item": {
 		"prefix": "!todo-undo-item",
 		"body": [
-			"- [ ] $1"
+			"[ ] $1"
 		],
 		"description": "add image"
 	},
 	"Add todo done item": {
 		"prefix": "!todo-done-item",
 		"body": [
-			"- [x] $2"
+			"[x] $2"
 		],
 		"description": "add image"
 	}
