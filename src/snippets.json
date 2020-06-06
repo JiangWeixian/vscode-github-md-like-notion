@@ -188,7 +188,7 @@
 	"Add producthunt badge": {
 		"prefix": "!badge-producthunt",
 		"body": [
-			"<a href='https://www.producthunt.com/posts/$1?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-collaborative-markdown-editor' target='_blank'><img src='https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=91983&theme=light' alt='producthunt-badge' width='250px' height='54px' /></a>"
+			"<a href='https://www.producthunt.com/posts/$1?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-collaborative-markdown-editor' target='_blank'><img src='https://api.producthunt.com/widgets/embed-image/v1/featured.png?post_id=91983&theme=light' alt='producthunt-badge' width='250px' height='54px' /></a>"
 		],
 		"description": "add producthunt badge for markdown"
 	},

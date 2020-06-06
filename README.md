@@ -58,7 +58,7 @@
 
 ### badge-producthunt - !badge-producthunt
 
-<a href="https://www.producthunt.com/posts/collaborative-markdown-editor?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-collaborative-markdown-editor" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=91983&theme=light" alt="Collaborative Markdown Editor - Collaborative editor with end-to-end encryption. | Product Hunt Embed" style="width: 250px; height: 54px;" width="250px" height="54px" /></a>
+<a href="https://www.producthunt.com/posts/collaborative-markdown-editor?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-collaborative-markdown-editor" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.png?post_id=91983&theme=light" alt="Collaborative Markdown Editor - Collaborative editor with end-to-end encryption. | Product Hunt Embed" style="width: 250px; height: 54px;" width="250px" height="54px" /></a>
 
 ### badge-applestore - !badge-applestore
 
