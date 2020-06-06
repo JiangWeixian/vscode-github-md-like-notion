@@ -301,5 +301,12 @@
 			"📝 $1"
 		],
 		"description": "add docs emoji"
+	},
+	"Add keyboard": {
+		"prefix": "!keyboard",
+		"body": [
+			"<kdb>$1</kdb>"
+		],
+		"description": "add keyboard wrap"
 	}
 }
