@@ -16,6 +16,10 @@ This is the source code for [Snippet Guide](https://code.visualstudio.com/api/la
 
 ## snippets
 
+### mutiple-images - !images-{count}
+
+<a><img src='https://avatars2.githubusercontent.com/u/6839576?s=460&u=ae20ee0b187d0c4f70cae7daa12ae09fb47b78a9&v=4' width='320' /></a><a><img src='https://avatars2.githubusercontent.com/u/6839576?s=460&u=ae20ee0b187d0c4f70cae7daa12ae09fb47b78a9&v=4' width='320' /></a><a><img src='https://avatars2.githubusercontent.com/u/6839576?s=460&u=ae20ee0b187d0c4f70cae7daa12ae09fb47b78a9&v=4' width='320' /></a><a><img src='https://avatars2.githubusercontent.com/u/6839576?s=460&u=ae20ee0b187d0c4f70cae7daa12ae09fb47b78a9&v=4' width='320' /></a>
+
 ### image-with-caption - !image-with-caption
 
 ![avatar](https://avatars2.githubusercontent.com/u/6839576?s=460&u=ae20ee0b187d0c4f70cae7daa12ae09fb47b78a9&v=4 "avatar")*avatar*
