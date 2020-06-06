@@ -29,7 +29,30 @@
 			"</div>",
 			""
 		],
-		"description": "add meta info in markdown"
+		"description": "add simple desciption for github-repo"
+	},
+	"Add repo description with logo": {
+		"prefix": "!description-with-logo",
+		"body": [
+			"<div align='center'>",
+			"",
+			"![logo]($1)",
+			"",
+			"*$2*",
+			"</div>",
+			""
+		],
+		"description": "add simple desciption with center logo for github-repo"
+	},
+	"Add repo description with righ logo": {
+		"prefix": "!description-with-right-logo",
+		"body": [
+			"<img align='right' width='100' src='$1' alt='logo' />",
+			"",
+			"$2",
+			""
+		],
+		"description": "add simple desciption with right logo for github-repo"
 	},
 	"Add react component table props": {
 		"prefix": "!table-react-props",
