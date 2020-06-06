@@ -138,8 +138,17 @@
 	"Add todo done item": {
 		"prefix": "!todo-done-item",
 		"body": [
-			"[x] $2"
+			"[x] $1"
 		],
 		"description": "add image"
+	},
+	"Add contributors": {
+		"prefix": "!contributors",
+		"body": [
+			"<a href='https://github.com/$1/$2/graphs/contributors'>",
+			"<img src='https://opencollective.com/$2/contributors.svg?width=890' />",
+			"</a>"
+		],
+		"description": "add contributors for github repo"
 	}
 }
