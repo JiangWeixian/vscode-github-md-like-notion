@@ -1,18 +1,11 @@
 {
-	"Add h1": {
-		"prefix": "!h1",
-		"body": [
-			"# $1"
-		],
-		"description": "add a h1 part in markdown"
-	},
 	"Add collapse part": {
 		"prefix": "!collapse",
 		"body": [
 			"<details>",
-			"<summary>$1</summary>",
+			"<summary>${1:summary}</summary>",
 			"<p>",
-			"$2",
+			"${2:description}",
 			"</p>",
 			"</details>"
 		],
@@ -23,9 +16,10 @@
 		"body": [
 			"<div align='center'>",
 			"",
-			"# $1",
+			"# ${reponame}",
 			"",
-			"*$2*",
+			"*${2:description}*",
+			"",
 			"</div>",
 			""
 		],
@@ -38,7 +32,8 @@
 			"",
 			"![logo]($1)",
 			"",
-			"*$2*",
+			"*${2:description}*",
+			"",
 			"</div>",
 			""
 		],
@@ -49,7 +44,7 @@
 		"body": [
 			"<img align='right' width='100' src='$1' alt='logo' />",
 			"",
-			"$2",
+			"${2:description}",
 			""
 		],
 		"description": "add simple desciption with right logo for github-repo"
@@ -81,9 +76,9 @@
 	"Add image with caption": {
 		"prefix": "!image-with-caption",
 		"body": [
-			"![$1]($2)",
+			"![${1:image-caption}]($2)",
 			"",
-			"*$1*"
+			"*${1:image-caption}*"
 		],
 		"description": "add image with caption"
 	},
@@ -92,9 +87,9 @@
 		"body": [
 			"<div align='center'>",
 			"",
-			"![$1]($2)",
+			"![${1:image-caption}]($2)",
 			"",
-			"*$1*",
+			"*${1:image-caption}*",
 			"",
 			"</div>"
 		],
@@ -104,7 +99,7 @@
 		"prefix": "!image-caption",
 		"body": [
 			"",
-			"*$1*"
+			"*${1:image-caption}*"
 		],
 		"description": "add caption for image"
 	},
@@ -113,7 +108,7 @@
 		"body": [
 			"<p>",
 			"",
-			"*$1*",
+			"*${1:image-caption}*",
 			"",
 			"</p>"
 		],
@@ -122,7 +117,7 @@
 	"Add two inline images": {
 		"prefix": "!image-inline-2",
 		"body": [
-			"<a><img src='$1' width='432' /></a><a><img src='$2' width='432' /></a>",
+			"<a><img src='${1:1st-image-url}' width='432' /></a><a><img src='${2:2nd-image-url}' width='432' /></a>",
 			""
 		],
 		"description": "make two images inline"
@@ -130,7 +125,7 @@
 	"Add three inline images": {
 		"prefix": "!image-inline-3",
 		"body": [
-			"<a><img src='$1' width='288' /></a><a><img src='$2' width='288' /></a><a><img src='$3' width='288' /></a>",
+			"<a><img src='${1:1st-image-url}' width='288' /></a><a><img src='${2:2nd-image-url}' width='288' /></a><a><img src='${3:3rd-image-url}' width='288' /></a>",
 			""
 		],
 		"description": "make three images inline"
@@ -138,10 +133,10 @@
 	"Add four inline images": {
 		"prefix": "!image-inline-4",
 		"body": [
-			"<a><img src='$1' width='216' /></a><a><img src='$2' width='216' /></a><a><img src='$3' width='216' /></a><a><img src='$4' width='216' /></a>",
+			"<a><img src='${1:1st-image-url}' width='216' /></a><a><img src='${2:2nd-image-url}' width='216' /></a><a><img src='${3:3rd-image-url}' width='216' /></a><a><img src='${4th-image-url}' width='216' /></a>",
 			""
 		],
-		"description": "make two images inline"
+		"description": "make four images inline"
 	},
 	"Add todo list": {
 		"prefix": "!todo-list",
@@ -169,8 +164,8 @@
 		"prefix": "!contributors",
 		"body": [
 			"This project exists thanks to all the people who contribute.",
-			"<a href='https://github.com/$1/$2/graphs/contributors'>",
-			"<img src='https://opencollective.com/$2/contributors.svg?width=890' />",
+			"<a href='https://github.com/${1:github-username}/${2:reponame}/graphs/contributors'>",
+			"<img src='https://opencollective.com/${2:reponame}/contributors.svg?width=890' />",
 			"</a>"
 		],
 		"description": "add contributors for github repo"
@@ -179,8 +174,8 @@
 		"prefix": "!backers",
 		"body": [
 			"Thank you to all our backers!",
-			"<a href='https://github.com/$1/$2/graphs/contributors'>",
-			"<img src='https://opencollective.com/$2/contributors.svg?width=890' />",
+			"<a href='https://github.com/{1:github-username}/${2:reponame}/graphs/contributors'>",
+			"<img src='https://opencollective.com/${2:reponame}/contributors.svg?width=890' />",
 			"</a>"
 		],
 		"description": "add contributors for github repo"
@@ -188,28 +183,28 @@
 	"Add producthunt badge": {
 		"prefix": "!badge-producthunt",
 		"body": [
-			"<a href='https://www.producthunt.com/posts/$1?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-collaborative-markdown-editor' target='_blank'><img src='https://api.producthunt.com/widgets/embed-image/v1/featured.png?post_id=91983&theme=light' alt='producthunt-badge' width='250px' height='54px' /></a>"
+			"<a href='https://www.producthunt.com/posts/${1:producthunt-name}?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-collaborative-markdown-editor' target='_blank'><img src='https://api.producthunt.com/widgets/embed-image/v1/featured.png?post_id=91983&theme=light' alt='producthunt-badge' width='250px' height='54px' /></a>"
 		],
 		"description": "add producthunt badge for markdown"
 	},
 	"Add apple appstore badge": {
 		"prefix": "!badge-applestore",
 		"body": [
-			"<a src='$1'><img width='180' alt='apple-appstore' src='https://user-images.githubusercontent.com/6839576/83937447-42f3e280-a7ff-11ea-9ca6-b20a0a8d3f09.png'></a>"
+			"<a src='${1:appurl}'><img width='180' alt='apple-appstore' src='https://user-images.githubusercontent.com/6839576/83937447-42f3e280-a7ff-11ea-9ca6-b20a0a8d3f09.png'></a>"
 		],
 		"description": "add apple appstore badge for markdown"
 	},
 	"Add google play store badge": {
 		"prefix": "!badge-googleplay",
 		"body": [
-			"<a src='$1'><img width='180' alt='googleplay-store' src='https://user-images.githubusercontent.com/6839576/83937448-44250f80-a7ff-11ea-8998-b97dc4fb2395.png'></a>"
+			"<a src='${1:appurl}'><img width='180' alt='googleplay-store' src='https://user-images.githubusercontent.com/6839576/83937448-44250f80-a7ff-11ea-8998-b97dc4fb2395.png'></a>"
 		],
 		"description": "add google play badge for markdown"
 	},
 	"Add patreon sponsor": {
 		"prefix": "!sponsor-pateron",
 		"body": [
-			"<a src='https://www.patreon.com/$1'><img width='180' alt='sponsor-pateron' src='https://c5.patreon.com/external/logo/become_a_patron_button@2x.png'></a>"
+			"<a src='https://www.patreon.com/${patreon-username}'><img width='180' alt='sponsor-pateron' src='https://c5.patreon.com/external/logo/become_a_patron_button@2x.png'></a>"
 		],
 		"description": "add sponsor-pateron button for markdown"
 	},
@@ -219,7 +214,7 @@
 			"# ",
 			"<div align='right'>",
 			"",
-			"*built with ❤️ by $1*",
+			"*built with ❤️ by ${1:username}*",
 			"",
 			"</div>"
 		],
@@ -305,7 +300,7 @@
 	"Add keyboard": {
 		"prefix": "!keyboard",
 		"body": [
-			"<kbd>$1</kbd>"
+			"<kbd>${1:keyname}</kbd>"
 		],
 		"description": "add keyboard wrap"
 	}
