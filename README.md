@@ -88,6 +88,14 @@ This is the source code for [Snippet Guide](https://code.visualstudio.com/api/la
 
 ・[tab2]()
 
+### date - !date or !date-YYYY/MM/DD
+
+2020/06/06
+
+### date with showtime - !date-YYYY/MM/DD HH:MM:SS
+
+2020/06/06 15:15:58
+
 ### signature - !signature
 
 # 
