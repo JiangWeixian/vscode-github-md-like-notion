@@ -1,6 +1,8 @@
 # @vscode-gh-md-like-notion
 
 - [@vscode-gh-md-like-notion](#vscode-gh-md-like-notion)
+	- [install](#install)
+	- [config](#config)
 	- [snippets](#snippets)
 		- [inline-images - `!images-inline-{count}`](#inline-images---images-inline-count)
 		- [image-with-caption - `!image-with-caption`](#image-with-caption---image-with-caption)
@@ -22,6 +24,26 @@
 		- [keyboard - `!keyboard`](#keyboard---keyboard)
 		- [signature - `!signature`](#signature---signature)
 - [](#)
+
+## install
+
+> ext install vscode-gh-like-notion
+
+## config
+
+**in settings.json**
+
+```json
+"[markdown]": {
+	// ...
+	"editor.quickSuggestions": {
+			"other": true,
+			"comments": false,
+			"strings": false
+	},
+	// ...
+},
+```
 
 ## snippets
 
