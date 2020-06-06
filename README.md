@@ -51,14 +51,18 @@ This is the source code for [Snippet Guide](https://code.visualstudio.com/api/la
 
 [outside-link 🔗](https://github.com/JiangWeixian/vscode-github-md-like-notion)
 
-#### backers - !backers
+### backers - !backers
 
 <a href="https://opencollective.com/react-three-fiber#backers" target="_blank">
   <img src="https://opencollective.com/react-three-fiber/backers.svg?width=890"/>
 </a>
 
-##### contributors - !contributors
+### contributors - !contributors
 
 <a href="https://github.com/react-spring/react-three-fiber/graphs/contributors">
   <img src="https://opencollective.com/react-three-fiber/contributors.svg?width=890" />
 </a>
+
+### producthunt-badge - !badge-producthunt
+
+<a href="https://www.producthunt.com/posts/collaborative-markdown-editor?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-collaborative-markdown-editor" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=91983&theme=light" alt="Collaborative Markdown Editor - Collaborative editor with end-to-end encryption. | Product Hunt Embed" style="width: 250px; height: 54px;" width="250px" height="54px" /></a>
