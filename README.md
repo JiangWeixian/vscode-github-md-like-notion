@@ -17,6 +17,7 @@ This is the source code for [Snippet Guide](https://code.visualstudio.com/api/la
 ## snippets
 
 ### inline-images - !images-inline-{count}
+> four-inline-image example
 
 <a><img src='https://avatars2.githubusercontent.com/u/6839576?s=460&u=ae20ee0b187d0c4f70cae7daa12ae09fb47b78a9&v=4' width='216' /></a><a><img src='https://avatars2.githubusercontent.com/u/6839576?s=460&u=ae20ee0b187d0c4f70cae7daa12ae09fb47b78a9&v=4' width='216' /></a><a><img src='https://avatars2.githubusercontent.com/u/6839576?s=460&u=ae20ee0b187d0c4f70cae7daa12ae09fb47b78a9&v=4' width='216' /></a><a><img src='https://avatars2.githubusercontent.com/u/6839576?s=460&u=ae20ee0b187d0c4f70cae7daa12ae09fb47b78a9&v=4' width='216' /></a>
 
@@ -49,3 +50,15 @@ This is the source code for [Snippet Guide](https://code.visualstudio.com/api/la
 ### outside-link - !link-outside
 
 [outside-link 🔗](https://github.com/JiangWeixian/vscode-github-md-like-notion)
+
+#### backers - !backers
+
+<a href="https://opencollective.com/react-three-fiber#backers" target="_blank">
+  <img src="https://opencollective.com/react-three-fiber/backers.svg?width=890"/>
+</a>
+
+##### contributors - !contributors
+
+<a href="https://github.com/react-spring/react-three-fiber/graphs/contributors">
+  <img src="https://opencollective.com/react-three-fiber/contributors.svg?width=890" />
+</a>

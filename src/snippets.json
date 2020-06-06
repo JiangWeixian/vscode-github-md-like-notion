@@ -150,5 +150,14 @@
 			"</a>"
 		],
 		"description": "add contributors for github repo"
+	},
+	"Add backers": {
+		"prefix": "!backers",
+		"body": [
+			"<a href='https://github.com/$1/$2/graphs/contributors'>",
+			"<img src='https://opencollective.com/$2/contributors.svg?width=890' />",
+			"</a>"
+		],
+		"description": "add contributors for github repo"
 	}
 }
