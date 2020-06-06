@@ -11,6 +11,8 @@
 	- [install](#install)
 	- [config](#config)
 	- [snippets](#snippets)
+		- [description - `!description`](#description---description)
+		- [description - `!description-with-center-logo`](#description---description-with-center-logo)
 		- [inline-images - `!images-inline-{count}`](#inline-images---images-inline-count)
 		- [image-with-caption - `!image-with-caption`](#image-with-caption---image-with-caption)
 		- [image-with-center-caption - `!image-with-center-caption`](#image-with-center-caption---image-with-center-caption)
@@ -53,6 +55,19 @@
 ```
 
 ## snippets
+
+### description - `!description`
+
+### description - `!description-with-center-logo`
+
+<div align='center'>
+
+![logo](https://avatars2.githubusercontent.com/u/6839576?s=460&u=ae20ee0b187d0c4f70cae7daa12ae09fb47b78a9&v=4)
+
+*a enhancer for github readme*
+
+</div>
+
 
 ### inline-images - `!images-inline-{count}`
 > four-inline-image example
