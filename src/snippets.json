@@ -77,6 +77,25 @@
 		],
 		"description": "add image with center caption"
 	},
+	"Add image caption": {
+		"prefix": "!image-caption",
+		"body": [
+			"",
+			"*$1*",
+		],
+		"description": "add caption for image"
+	},
+	"Add image center caption": {
+		"prefix": "!image-center-caption",
+		"body": [
+			"<p>",
+			"",
+			"*$1*",
+			"",
+			"</p>"
+		],
+		"description": "add center caption for image"
+	},
 	"Add two inline images": {
 		"prefix": "!image-inline-2",
 		"body": [
