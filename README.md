@@ -1,14 +1,6 @@
-# Snippet Sample
+## @vscode-gh-md-like-notion
 
-This is the source code for [Snippet Guide](https://code.visualstudio.com/api/language-extensions/snippet-guide).
-
-## VS Code API
-
-### Contribution Points
-
-- [`contributes.snippets`](https://code.visualstudio.com/api/references/contribution-points#contributes.snippets)
-
-## dev
+## Q&A
 
 - [how-to-debug](https://code.visualstudio.com/api/get-started/your-first-extension)
 - [supported snippets](https://code.visualstudio.com/docs/editor/userdefinedsnippets)
@@ -109,5 +101,3 @@ This is the source code for [Snippet Guide](https://code.visualstudio.com/api/la
 *built with ❤️ by jiangweixian*
 
 </div>
-
-<mark>xxx</mark>
