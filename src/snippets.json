@@ -77,6 +77,30 @@
 		],
 		"description": "add image with center caption"
 	},
+	"Add two inline images": {
+		"prefix": "!image-inline-2",
+		"body": [
+			"<a><img src='$1' width='432' /></a><a><img src='$2' width='432' /></a>",
+			""
+		],
+		"description": "make two images inline"
+	},
+	"Add three inline images": {
+		"prefix": "!image-inline-3",
+		"body": [
+			"<a><img src='$1' width='288' /></a><a><img src='$2' width='288' /></a><a><img src='$3' width='288' /></a>",
+			""
+		],
+		"description": "make three images inline"
+	},
+	"Add four inline images": {
+		"prefix": "!image-inline-4",
+		"body": [
+			"<a><img src='$1' width='216' /></a><a><img src='$2' width='216' /></a><a><img src='$3' width='216' /></a><a><img src='$4' width='216' /></a>",
+			""
+		],
+		"description": "make two images inline"
+	},
 	"Add todo list": {
 		"prefix": "!todo-list",
 		"body": [
