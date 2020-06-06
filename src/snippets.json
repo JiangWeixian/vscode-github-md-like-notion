@@ -228,8 +228,15 @@
 	"Add tabs": {
 		"prefix": "!tabs",
 		"body": [
-			"[${1:tab1}]($2)ㆍ[${1:tab2}]($4)"
+			"[${1:tab1}]($2)・[${3:tab2}]($4)"
 		],
-		"description": "add sponsor-pateron button for markdown"
+		"description": "add tabs"
+	},
+	"Add tab item": {
+		"prefix": "!tab-item",
+		"body": [
+			"・[${1:tabname}]($2)"
+		],
+		"description": "add single tab"
 	}
 }
