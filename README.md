@@ -21,7 +21,7 @@
 		- [table-react-component-props - `!table-react-props`](#table-react-component-props---table-react-props)
 		- [inside-link - `!link`](#inside-link---link)
 		- [outside-link - `!link-outside`](#outside-link---link-outside)
-		- [backers - !backers](#backers---backers)
+		- [backers - `!backers`](#backers---backers)
 		- [contributors - `!contributors`](#contributors---contributors)
 		- [badge-producthunt - `!badge-producthunt`](#badge-producthunt---badge-producthunt)
 		- [badge-applestore - `!badge-applestore`](#badge-applestore---badge-applestore)
@@ -106,7 +106,7 @@
 
 [outside-link 🔗](https://github.com/JiangWeixian/vscode-github-md-like-notion)
 
-### backers - !backers
+### backers - `!backers`
 
 <a href="https://opencollective.com/react-three-fiber#backers" target="_blank">
   <img src="https://opencollective.com/react-three-fiber/backers.svg?width=890"/>
