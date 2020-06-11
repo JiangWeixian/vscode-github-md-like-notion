@@ -2,7 +2,7 @@
 
 <img width="400" src="https://user-images.githubusercontent.com/6839576/83966304-fe924080-a8eb-11ea-95d6-0acbb6313312.gif" />
 
-# @vscode-gh-md-like-notion
+# @vscode-github-md-like-notion
 
 *a enhancer for github readme*
 
@@ -11,7 +11,7 @@
 </div>
 
 
-- [@vscode-gh-md-like-notion](#vscode-gh-md-like-notion)
+- [@vscode-github-md-like-notion](#vscode-github-md-like-notion)
 	- [install](#install)
 	- [config](#config)
 	- [snippets](#snippets)
@@ -40,7 +40,9 @@
 
 ## install
 
-> ext install vscode-gh-like-notion
+```bash
+ext install vscode-gh-like-notion
+```
 
 ## config
 
@@ -50,9 +52,9 @@
 "[markdown]": {
 	// ...
 	"editor.quickSuggestions": {
-			"other": true,
-			"comments": false,
-			"strings": false
+		"other": true,
+		"comments": false,
+		"strings": false
 	},
 	// ...
 },
