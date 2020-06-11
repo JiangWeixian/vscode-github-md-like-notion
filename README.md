@@ -1,10 +1,12 @@
 <div align='center'>
 
+<img width="400" src="https://user-images.githubusercontent.com/6839576/83966304-fe924080-a8eb-11ea-95d6-0acbb6313312.gif" />
+
 # @vscode-gh-md-like-notion
 
 *a enhancer for github readme*
 
-<img width="400" src="https://user-images.githubusercontent.com/6839576/83966304-fe924080-a8eb-11ea-95d6-0acbb6313312.gif" />
+[![Visual Studio Marketplace Installs](https://img.shields.io/visual-studio-marketplace/i/jiangweixian.vscode-github-md-like-notion?style=flat-square)](https://marketplace.visualstudio.com/items?itemName=jiangweixian.vscode-github-md-like-notion) [![Visual Studio Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/jiangweixian.vscode-github-md-like-notion?style=flat-square)](https://marketplace.visualstudio.com/items?itemName=jiangweixian.vscode-github-md-like-notion)
 
 </div>
 
