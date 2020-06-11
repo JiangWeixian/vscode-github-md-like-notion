@@ -171,8 +171,8 @@ ext install vscode-gh-like-notion
 ### signature - `!signature`
 
 # 
-<p align='right'>
+<div align='right'>
 
 *built with ❤️ by jiangweixian*
 
-</p>
+</div>
