@@ -7,6 +7,9 @@
 	"engines": {
 		"vscode": "^1.28.0"
 	},
+	"scripts": {
+		"publish:vscode": "vsce publish"
+	},
 	"categories": [
 		"Snippets"
 	],
