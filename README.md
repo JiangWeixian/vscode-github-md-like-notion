@@ -37,6 +37,9 @@
 		- [create time - `!createAt`](#create-time---createat)
 		- [emoji - `!emoji-{gitmojiname}`](#emoji---emoji-gitmojiname)
 		- [keyboard - `!keyboard`](#keyboard---keyboard)
+		- [note - `!note`](#note---note)
+		- [warning - `!warning`](#warning---warning)
+		- [danger - `!danger`](#danger---danger)
 		- [signature - `!signature`](#signature---signature)
 - [](#)
 
@@ -177,6 +180,21 @@ created at 2020/06/06 15:15:58
 ### keyboard - `!keyboard`
 
 <kbd>ctrl</kbd>
+
+### note - `!note`
+
+> **💡NOTE**  
+> Etiam pretium lectus non ipsum dignissim, sit amet tempus ligula iaculis. Fusce nec lacus in eros pretium porttitor id ac purus. Ut rhoncus ligula at condimentum pulvinar. Nam condimentum nisi eget bibendum varius. Etiam volutpat eros non suscipit vulputate.
+
+### warning - `!warning`
+
+> **⚠️ WARNING**  
+> Etiam pretium lectus non ipsum dignissim, sit amet tempus ligula iaculis. Fusce nec lacus in eros pretium porttitor id ac purus. Ut rhoncus ligula at condimentum pulvinar. Nam condimentum nisi eget bibendum varius. Etiam volutpat eros non suscipit vulputate.
+
+### danger - `!danger`
+
+> **🚫DANGER**   
+> Etiam pretium lectus non ipsum dignissim, sit amet tempus ligula iaculis. Fusce nec lacus in eros pretium porttitor id ac purus. Ut rhoncus ligula at condimentum pulvinar. Nam condimentum nisi eget bibendum varius. Etiam volutpat eros non suscipit vulputate.
 
 ### signature - `!signature`
 

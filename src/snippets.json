@@ -186,7 +186,7 @@
 	"Add google playstore badge": {
 		"prefix": "!badge-googleplay",
 		"body": [
-			"<a href='${1:appurl}'><img width='180' alt='googleplay-store' src='https://user-images.githubusercontent.com/6839576/84586116-11a39400-ae49-11ea-9333-0833ffc9afcf.png'></a>"
+			"<a href='${1:appurl}'><img width='180' alt='googleplay-store' src='https://user-images.githubusercontent.com/6839576/83937448-44250f80-a7ff-11ea-8998-b97dc4fb2395.png'></a>"
 		],
 		"description": "add google play badge for markdown"
 	},
@@ -195,7 +195,7 @@
 		"body": [
 			"<a href='${1:appurl}'><img width='180' alt='chrome-webstore' src='https://user-images.githubusercontent.com/6839576/84586116-11a39400-ae49-11ea-9333-0833ffc9afcf.png'></a>"
 		],
-		"description": "add google play badge for markdown"
+		"description": "add chrome-web-store badge for markdown"
 	},
 	"Add patreon sponsor": {
 		"prefix": "!sponsor-pateron",
@@ -299,5 +299,32 @@
 			"<kbd>${1:keyname}</kbd>"
 		],
 		"description": "add keyboard wrap"
+	},
+	"Add note": {
+		"prefix": "!note",
+		"body": [
+			"> **NOTE**",
+			">",
+			"${1:note}"
+		],
+		"description": "add note"
+	},
+	"Add warning": {
+		"prefix": "!warning",
+		"body": [
+			"> **WARNING**",
+			">",
+			"${1:warning}"
+		],
+		"description": "add warning"
+	},
+	"Add danger": {
+		"prefix": "!danger",
+		"body": [
+			"> **DANGER**",
+			">",
+			"${1:danger}"
+		],
+		"description": "add danger"
 	}
 }
