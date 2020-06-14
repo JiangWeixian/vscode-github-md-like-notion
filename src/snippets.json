@@ -242,21 +242,21 @@
 		"description": "add single tab"
 	},
 	"Add current date": {
-		"prefix": ["!date-YYYY/MM/DD", "!date"],
+		"prefix": "!data",
 		"body": [
 			"${CURRENT_YEAR}/${CURRENT_MONTH}/${CURRENT_DATE}"
 		],
 		"description": "add current date without time"
 	},
 	"Add current date with showtime": {
-		"prefix": "!date-YYYY/MM/DD HH:MM:SS",
+		"prefix": "!time",
 		"body": [
 			"${CURRENT_YEAR}/${CURRENT_MONTH}/${CURRENT_DATE} ${CURRENT_HOUR}:${CURRENT_HOUR}:${CURRENT_SECOND}"
 		],
 		"description": "add current date with time"
 	},
 	"Add created at": {
-		"prefix": "!date-YYYY/MM/DD HH:MM:SS",
+		"prefix": "!createAt",
 		"body": [
 			"created at ${CURRENT_YEAR}/${CURRENT_MONTH}/${CURRENT_DATE} ${CURRENT_HOUR}:${CURRENT_HOUR}:${CURRENT_SECOND}"
 		],
