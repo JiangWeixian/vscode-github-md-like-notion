@@ -76,9 +76,8 @@
 	"Add image with caption": {
 		"prefix": "!image-with-caption",
 		"body": [
-			"![${1:image-caption}]($2)",
-			"",
-			"*${1:image-caption}*"
+			"![${1:image-caption}]($2)  ",
+			"*▲ ${1:image-caption}*"
 		],
 		"description": "add image with caption"
 	},
@@ -87,9 +86,8 @@
 		"body": [
 			"<div align='center'>",
 			"",
-			"![${1:image-caption}]($2)",
-			"",
-			"*${1:image-caption}*",
+			"![${1:image-caption}]($2)  ",
+			"*▲ ${1:image-caption}*",
 			"",
 			"</div>"
 		],
