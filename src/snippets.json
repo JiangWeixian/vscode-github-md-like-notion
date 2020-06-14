@@ -95,6 +95,14 @@
 		],
 		"description": "add image with center caption"
 	},
+	"Add inline image": {
+		"prefix": "!image-inline",
+		"body": [
+			"<a><img src='${1:image-url}' width='432' /></a>",
+			""
+		],
+		"description": "make two images inline"
+	},
 	"Add two inline images": {
 		"prefix": "!image-inline-2",
 		"body": [
