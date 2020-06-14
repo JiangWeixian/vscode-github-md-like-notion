@@ -183,7 +183,7 @@ created at 2020/06/06 15:15:58
 
 ### note - `!note`
 
-> **💡NOTE**  
+> **💡 NOTE**  
 > Etiam pretium lectus non ipsum dignissim, sit amet tempus ligula iaculis. Fusce nec lacus in eros pretium porttitor id ac purus. Ut rhoncus ligula at condimentum pulvinar. Nam condimentum nisi eget bibendum varius. Etiam volutpat eros non suscipit vulputate.
 
 ### warning - `!warning`
@@ -193,7 +193,7 @@ created at 2020/06/06 15:15:58
 
 ### danger - `!danger`
 
-> **🚫DANGER**   
+> **🚫 DANGER**   
 > Etiam pretium lectus non ipsum dignissim, sit amet tempus ligula iaculis. Fusce nec lacus in eros pretium porttitor id ac purus. Ut rhoncus ligula at condimentum pulvinar. Nam condimentum nisi eget bibendum varius. Etiam volutpat eros non suscipit vulputate.
 
 ### signature - `!signature`

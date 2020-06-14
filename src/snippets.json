@@ -303,8 +303,7 @@
 	"Add note": {
 		"prefix": "!note",
 		"body": [
-			"> **NOTE**",
-			">",
+			"> **💡 NOTE**  ",
 			"${1:note}"
 		],
 		"description": "add note"
@@ -312,8 +311,7 @@
 	"Add warning": {
 		"prefix": "!warning",
 		"body": [
-			"> **WARNING**",
-			">",
+			"> **⚠️ WARNING**  ",
 			"${1:warning}"
 		],
 		"description": "add warning"
@@ -321,8 +319,7 @@
 	"Add danger": {
 		"prefix": "!danger",
 		"body": [
-			"> **DANGER**",
-			">",
+			"> **🚫 DANGER**  ",
 			"${1:danger}"
 		],
 		"description": "add danger"
