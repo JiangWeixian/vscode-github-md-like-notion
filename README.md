@@ -28,6 +28,7 @@
 		- [badge-producthunt - `!badge-producthunt`](#badge-producthunt---badge-producthunt)
 		- [badge-applestore - `!badge-applestore`](#badge-applestore---badge-applestore)
 		- [badge-googleplay - `!badge-googleplay`](#badge-googleplay---badge-googleplay)
+		- [badge-googleplay - `!badge-crx`](#badge-googleplay---badge-crx)
 		- [button-sponsor-pateron - `!sponsor-pateron`](#button-sponsor-pateron---sponsor-pateron)
 		- [tabs - `!tabs`](#tabs---tabs)
 		- [single tab - `!tab-item`](#single-tab---tab-item)
@@ -129,11 +130,15 @@ ext install vscode-gh-like-notion
 
 ### badge-applestore - `!badge-applestore`
 
-<a src=''><img width='180' alt='apple-appstore' src='https://user-images.githubusercontent.com/6839576/83937447-42f3e280-a7ff-11ea-9ca6-b20a0a8d3f09.png'></a>
+<a href=''><img width='180' alt='apple-appstore' src='https://user-images.githubusercontent.com/6839576/83937447-42f3e280-a7ff-11ea-9ca6-b20a0a8d3f09.png'></a>
 
 ### badge-googleplay - `!badge-googleplay`
 
-<a src=''><img width='180' alt='googleplay-store' src='https://user-images.githubusercontent.com/6839576/83937448-44250f80-a7ff-11ea-8998-b97dc4fb2395.png'></a>
+<a href=''><img width='180' alt='googleplay-store' src='https://user-images.githubusercontent.com/6839576/83937448-44250f80-a7ff-11ea-8998-b97dc4fb2395.png'></a>
+
+### badge-googleplay - `!badge-crx`
+
+<a href=''><img width='180' alt='chrome-webstore' src='https://user-images.githubusercontent.com/6839576/84586116-11a39400-ae49-11ea-9333-0833ffc9afcf.png'></a>
 
 ### button-sponsor-pateron - `!sponsor-pateron`
 
