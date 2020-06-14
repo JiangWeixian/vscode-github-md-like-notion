@@ -31,8 +31,9 @@
 		- [button-sponsor-pateron - `!sponsor-pateron`](#button-sponsor-pateron---sponsor-pateron)
 		- [tabs - `!tabs`](#tabs---tabs)
 		- [single tab - `!tab-item`](#single-tab---tab-item)
-		- [date - `!date or !date-YYYY/MM/DD`](#date---date-or-date-yyyymmdd)
-		- [date with showtime - `!date-YYYY/MM/DD HH:MM:SS](#date-with-showtime---date-yyyymmdd-hhmmss)
+		- [date - `!date`](#date---date)
+		- [date with showtime - `!time`](#date-with-showtime---time)
+		- [create time - `!createAt`](#create-time---createat)
 		- [emoji - `!emoji-{gitmojiname}`](#emoji---emoji-gitmojiname)
 		- [keyboard - `!keyboard`](#keyboard---keyboard)
 		- [signature - `!signature`](#signature---signature)
@@ -146,13 +147,17 @@ ext install vscode-gh-like-notion
 
 ・[tab2]()
 
-### date - `!date or !date-YYYY/MM/DD`
+### date - `!date`
 
 2020/06/06
 
-### date with showtime - `!date-YYYY/MM/DD HH:MM:SS
+### date with showtime - `!time`
 `
 2020/06/06 15:15:58
+
+### create time - `!createAt`
+`
+created at 2020/06/06 15:15:58
 
 ### emoji - `!emoji-{gitmojiname}`
 > some useful emoji from [gitmoji](https://gitmoji.carloscuesta.me/)
