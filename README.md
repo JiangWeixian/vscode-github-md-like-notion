@@ -46,7 +46,7 @@
 ## install
 
 ```bash
-ext install vscode-gh-like-notion
+ext install vscode-github-md-like-notion
 ```
 
 ## config
