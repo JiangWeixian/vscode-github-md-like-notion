@@ -1,4 +1,11 @@
 {
+	"Depoly to Vercel": {
+		"prefix": "!deploy-vercel",
+		"body": [
+			"[![Deploy with Vercel](https://vercel.com/button)](${1:git-repo-url})"
+		],
+		"description": "deploy to Vercel"
+	},
 	"Add collapse part": {
 		"prefix": "!collapse",
 		"body": [

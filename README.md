@@ -17,6 +17,7 @@
 	- [snippets](#snippets)
 		- [description - `!description`](#description---description)
 		- [description - `!description-with-center-logo`](#description---description-with-center-logo)
+		- [deploy-vercel - `!deploy-vercel`](#deploy-vercel---deploy-vercel)
 		- [inline-images - `!images-inline-{count}`](#inline-images---images-inline-count)
 		- [image-with-caption - `!image-with-caption`](#image-with-caption---image-with-caption)
 		- [image-with-center-caption - `!image-with-center-caption`](#image-with-center-caption---image-with-center-caption)
@@ -79,6 +80,9 @@ ext install vscode-github-md-like-notion
 
 </div>
 
+### deploy-vercel - `!deploy-vercel`
+
+[![Deploy with Vercel](https://vercel.com/button)](https://github.com/jiangweixian/vscode-github-md-like-notion/tree/master)
 
 ### inline-images - `!images-inline-{count}`
 > four-inline-image example
