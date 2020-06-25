@@ -111,7 +111,7 @@
 	"Add two inline images": {
 		"prefix": "!image-inline-2",
 		"body": [
-			"<a><img src='${1:1st-image-url}' width='432' /></a><a><img src='${2:2nd-image-url}' width='432' /></a>",
+			"<a><img src='${1:1st-image-url}' width='350' /></a><a><img src='${2:2nd-image-url}' width='350' /></a>",
 			""
 		],
 		"description": "make two images inline"
@@ -119,7 +119,7 @@
 	"Add three inline images": {
 		"prefix": "!image-inline-3",
 		"body": [
-			"<a><img src='${1:1st-image-url}' width='288' /></a><a><img src='${2:2nd-image-url}' width='288' /></a><a><img src='${3:3rd-image-url}' width='288' /></a>",
+			"<a><img src='${1:1st-image-url}' width='240' /></a><a><img src='${2:2nd-image-url}' width='240' /></a><a><img src='${3:3rd-image-url}' width='240' /></a>",
 			""
 		],
 		"description": "make three images inline"
@@ -127,7 +127,7 @@
 	"Add four inline images": {
 		"prefix": "!image-inline-4",
 		"body": [
-			"<a><img src='${1:1st-image-url}' width='216' /></a><a><img src='${2:2nd-image-url}' width='216' /></a><a><img src='${3:3rd-image-url}' width='216' /></a><a><img src='${4th-image-url}' width='216' /></a>",
+			"<a><img src='${1:1st-image-url}' width='200' /></a><a><img src='${2:2nd-image-url}' width='200' /></a><a><img src='${3:3rd-image-url}' width='200' /></a><a><img src='${4th-image-url}' width='200' /></a>",
 			""
 		],
 		"description": "make four images inline"
