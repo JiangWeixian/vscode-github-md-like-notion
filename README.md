@@ -15,6 +15,7 @@
 	- [install](#install)
 	- [config](#config)
 	- [snippets](#snippets)
+		- [backtotop - `!backtotop`](#backtotop---backtotop)
 		- [description - `!description`](#description---description)
 		- [description - `!description-with-center-logo`](#description---description-with-center-logo)
 		- [deploy-vercel - `!deploy-vercel`](#deploy-vercel---deploy-vercel)
@@ -67,6 +68,10 @@ ext install vscode-github-md-like-notion
 ```
 
 ## snippets
+
+### backtotop - `!backtotop`
+
+[backtotop](#readme)
 
 ### description - `!description`
 
