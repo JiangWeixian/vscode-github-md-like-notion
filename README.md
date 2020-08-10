@@ -71,7 +71,7 @@ ext install vscode-github-md-like-notion
 
 ### backtotop - `!backtotop`
 
-[backtotop](#readme)
+[⭡backtotop](#readme)
 
 ### description - `!description`
 
