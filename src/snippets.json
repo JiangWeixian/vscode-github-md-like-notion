@@ -6,6 +6,13 @@
 		],
 		"description": "deploy to Vercel"
 	},
+	"back to top": {
+		"prefix": "!backtotop",
+		"body": [
+			"[⭡backtotop](#readme)"
+		],
+		"description": "backtotop"
+	},
 	"Add collapse part": {
 		"prefix": "!collapse",
 		"body": [
