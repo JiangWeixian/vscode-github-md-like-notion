@@ -15,7 +15,7 @@
 	- [install](#install)
 	- [config](#config)
 	- [snippets](#snippets)
-		- [backtotop - `!backtotop`](#backtotop---backtotop)
+		- [collapse - `!collapse`](#collapse---collapse)
 		- [description - `!description`](#description---description)
 		- [description - `!description-with-center-logo`](#description---description-with-center-logo)
 		- [deploy-vercel - `!deploy-vercel`](#deploy-vercel---deploy-vercel)
@@ -42,6 +42,7 @@
 		- [note - `!note`](#note---note)
 		- [warning - `!warning`](#warning---warning)
 		- [danger - `!danger`](#danger---danger)
+		- [backtotop - `!backtotop`](#backtotop---backtotop)
 		- [signature - `!signature`](#signature---signature)
 - [](#)
 
@@ -69,9 +70,14 @@ ext install vscode-github-md-like-notion
 
 ## snippets
 
-### backtotop - `!backtotop`
+### collapse - `!collapse`
 
-[⭡backtotop](#readme)
+<details>
+<summary>summary</summary>
+<p>
+description
+</p>
+</details>
 
 ### description - `!description`
 
@@ -202,6 +208,10 @@ created at 2020/06/06 15:15:58
 
 > **🚫 DANGER**   
 > Etiam pretium lectus non ipsum dignissim, sit amet tempus ligula iaculis. Fusce nec lacus in eros pretium porttitor id ac purus. Ut rhoncus ligula at condimentum pulvinar. Nam condimentum nisi eget bibendum varius. Etiam volutpat eros non suscipit vulputate.
+
+### backtotop - `!backtotop`
+
+[⭡backtotop](#readme)
 
 ### signature - `!signature`
 
