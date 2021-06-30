@@ -189,6 +189,9 @@ created at 2020/06/06 15:15:58
 - wip - 🚧
 - config - 🔧
 - docs - 📝
+- perf - ⚡️
+- refactor - ♻️
+- deploy - 🚀
 
 ### keyboard - `!keyboard`
 

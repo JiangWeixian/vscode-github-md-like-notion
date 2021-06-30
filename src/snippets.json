@@ -291,6 +291,27 @@
 		],
 		"description": "add wip emoji"
 	},
+	"Add emoji perf": {
+		"prefix": "!emoji-perf",
+		"body": [
+			"⚡️ $1"
+		],
+		"description": "add perf emoji"
+	},
+	"Add emoji refactor": {
+		"prefix": "!emoji-refactor",
+		"body": [
+			"♻️ $1"
+		],
+		"description": "add refactor emoji"
+	},
+	"Add emoji deploy": {
+		"prefix": "!emoji-deploy",
+		"body": [
+			"🚀 $1"
+		],
+		"description": "add deploy emoji"
+	},
 	"Add emoji config": {
 		"prefix": "!emoji-config",
 		"body": [
