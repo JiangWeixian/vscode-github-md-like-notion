@@ -35,5 +35,8 @@
 		"commitizen": {
 			"path": "cz-emoji"
 		}
+	},
+	"devDependencies": {
+		"@changesets/cli": "^2.27.1"
 	}
 }

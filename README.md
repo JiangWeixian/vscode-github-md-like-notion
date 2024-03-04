@@ -40,8 +40,10 @@
 		- [emoji - `!emoji-{gitmojiname}`](#emoji---emoji-gitmojiname)
 		- [keyboard - `!keyboard`](#keyboard---keyboard)
 		- [note - `!note`](#note---note)
+		- [tip - `!tip`](#tip---tip)
+		- [important - `!important`](#important---important)
 		- [warning - `!warning`](#warning---warning)
-		- [danger - `!danger`](#danger---danger)
+		- [caution - `!caution` | `!danger`](#caution---caution--danger)
 		- [backtotop - `!backtotop`](#backtotop---backtotop)
 		- [signature - `!signature`](#signature---signature)
 - [](#)
@@ -199,17 +201,28 @@ created at 2020/06/06 15:15:58
 
 ### note - `!note`
 
-> **💡 NOTE**  
+> [!NOTE]  
+> Etiam pretium lectus non ipsum dignissim, sit amet tempus ligula iaculis. Fusce nec lacus in eros pretium porttitor id ac purus. Ut rhoncus ligula at condimentum pulvinar. Nam condimentum nisi eget bibendum varius. Etiam volutpat eros non suscipit vulputate.
+>
+
+### tip - `!tip`
+
+> [!TIP]  
+> Etiam pretium lectus non ipsum dignissim, sit amet tempus ligula iaculis. Fusce nec lacus in eros pretium porttitor id ac purus. Ut rhoncus ligula at condimentum pulvinar. Nam condimentum nisi eget bibendum varius. Etiam volutpat eros non suscipit vulputate.
+
+### important - `!important`
+
+> [!important]  
 > Etiam pretium lectus non ipsum dignissim, sit amet tempus ligula iaculis. Fusce nec lacus in eros pretium porttitor id ac purus. Ut rhoncus ligula at condimentum pulvinar. Nam condimentum nisi eget bibendum varius. Etiam volutpat eros non suscipit vulputate.
 
 ### warning - `!warning`
 
-> **⚠️ WARNING**  
+> [!WARNING]  
 > Etiam pretium lectus non ipsum dignissim, sit amet tempus ligula iaculis. Fusce nec lacus in eros pretium porttitor id ac purus. Ut rhoncus ligula at condimentum pulvinar. Nam condimentum nisi eget bibendum varius. Etiam volutpat eros non suscipit vulputate.
 
-### danger - `!danger`
+### caution - `!caution` | `!danger`
 
-> **🚫 DANGER**   
+> [!CAUTION]   
 > Etiam pretium lectus non ipsum dignissim, sit amet tempus ligula iaculis. Fusce nec lacus in eros pretium porttitor id ac purus. Ut rhoncus ligula at condimentum pulvinar. Nam condimentum nisi eget bibendum varius. Etiam volutpat eros non suscipit vulputate.
 
 ### backtotop - `!backtotop`
