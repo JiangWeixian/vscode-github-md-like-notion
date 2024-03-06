@@ -243,7 +243,7 @@
 		"description": "add single tab"
 	},
 	"Add current date": {
-		"prefix": "!data",
+		"prefix": "!date",
 		"body": [
 			"${CURRENT_YEAR}/${CURRENT_MONTH}/${CURRENT_DATE}"
 		],
@@ -333,28 +333,44 @@
 		],
 		"description": "add keyboard wrap"
 	},
-	"Add note": {
+	"Add github note": {
 		"prefix": "!note",
 		"body": [
-			"> **💡 NOTE**  ",
+			"> [!NOTE]  ",
 			"${1:note}"
 		],
-		"description": "add note"
+		"description": "Useful information that users should know, even when skimming content."
+	},
+	"Add tip": {
+		"prefix": "!tip",
+		"body": [
+			"> [!TIP]  ",
+			"${1:tip}"
+		],
+		"description": "Helpful advice for doing things better or more easily."
+	},
+	"Add important": {
+		"prefix": "!important",
+		"body": [
+			"> [!IMPORTANT]  ",
+			"${1:important}"
+		],
+		"description": "Key information users need to know to achieve their goal."
 	},
 	"Add warning": {
 		"prefix": "!warning",
 		"body": [
-			"> **⚠️ WARNING**  ",
+			"> [!WARNING]  ",
 			"${1:warning}"
 		],
-		"description": "add warning"
+		"description": "Urgent info that needs immediate user attention to avoid problems."
 	},
-	"Add danger": {
-		"prefix": "!danger",
+	"Add caution": {
+		"prefix": ["!caution", "!danger"],
 		"body": [
-			"> **🚫 DANGER**  ",
-			"${1:danger}"
+			"> [!CAUTION]  ",
+			"${1:caution}"
 		],
-		"description": "add danger"
+		"description": "Advises about risks or negative outcomes of certain actions."
 	}
 }
